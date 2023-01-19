@@ -4,13 +4,31 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 footer > p > a{
     text-decoration: none;
     color: rgb(41, 187, 138);
 
 }.imagem{
-
+    max-height: 450px;
+    max-width: 1200px;
+    margin: auto;
 }.texto{
-    
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+      
+}section#img1 {
+    background-image: url("../imagens/barril-fundo.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}section#img2{
+    background-image: url("../imagens/rolha-fundo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}section#img3{
+    background-image: url("../imagens/garrafa-fundo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
