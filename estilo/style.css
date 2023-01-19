@@ -5,6 +5,11 @@
     margin: 0px;
     padding: 0px;
     
+}body{
+    font-family: Arial, Helvetica, sans-serif;
+}header{
+    background-color: bisque;
+    height: 300px;
 }
 footer > p > a{
     text-decoration: none;
@@ -14,6 +19,8 @@ footer > p > a{
     max-height: 450px;
     max-width: 1200px;
     margin: auto;
+    padding: 200px;
+    
 }.texto{
     padding: 30px;
     max-width: 1200px;
@@ -23,12 +30,14 @@ footer > p > a{
     background-image: url("../imagens/barril-fundo.jpeg");
     background-size: cover;
     background-attachment: fixed;
+    background-position: center ;
+    
 }section#img2{
     background-image: url("../imagens/rolha-fundo.jpg");
     background-size: cover;
     background-attachment: fixed;
 }section#img3{
-    background-image: url("../imagens/garrafa-fundo.jpg");
+    background-image: url("../imagens/vinicula-fundo.jpeg");
     background-size: cover;
     background-attachment: fixed;
 }
