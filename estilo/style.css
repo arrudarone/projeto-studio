@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+:root{ /*set de configurações utilizáveis configurações*/
+    --color1:rgb(255, 255, 255) ; 
+}
 
 *{
     margin: 0px;
@@ -22,15 +25,18 @@ footer > p > a{
     padding: 200px;
     
 }.texto{
-    padding: 30px;
+    padding: 60px;
     max-width: 1200px;
     margin: auto;
+    box-shadow:  inset 3px 1px 14px 0px rgb(0 0 0 / 60%);
       
 }section#img1 {
     background-image: url("../imagens/barril-fundo.jpeg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center ;
+    max-height: 200px;
+    
     
 }section#img2{
     background-image: url("../imagens/rolha-fundo.jpg");
