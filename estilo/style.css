@@ -15,6 +15,10 @@
     font-family:Explora-Regular ;
     src: url(../fonts/Explora-Regular.ttf);
   }
+  @font-face {
+    font-family:Aboreto-Regular ;
+    src: url(../fonts/Aboreto-Regular.ttf);
+  }
 *{
     margin: 0px;
     padding: 0px;
@@ -62,6 +66,8 @@ footer > p > a{
     margin: auto;
     padding: 200px;
     justify-content: center;
+    color: var(--color2);
+    font-weight: bold;
     
 }header > h1{
     
@@ -76,8 +82,8 @@ footer > p > a{
     padding: 60px;
     max-width: 1200px;
     margin: auto;
-    box-shadow:  inset 3px 1px 14px 0px rgb(0 0 0 / 60%);
-    font: 'Allura' ;
+    box-shadow: 3px 1px 14px 0px rgb(0 0 0 / 60%);
+    font-family: Aboreto-Regular;
     color: var(--color1);
     
       
