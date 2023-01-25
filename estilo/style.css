@@ -2,7 +2,15 @@
 
 :root{ /*set de configurações utilizáveis configurações*/
     --color1:rgb(66, 17, 68) ; 
+    --color2:#A8193F;
+    --color3:#5C2937;
+    --color4:#DB2154;
+    --color5:#E16586;
+    --color6:#5C0E23;
 }
+
+  @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap'); /*allura*/
+  @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap'); /*yeseva one*/
 
 *{
     margin: 0px;
@@ -10,36 +18,54 @@
     
 }body{
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: auto;
 }header{
     background-color: bisque;
     height: 300px;
     background-image: url("../imagens/garrafa-fundo.jpg");
-    background-size: 900px; /*imagem grande de mais para cobrir corretamente o cabeçalho*/
+    background-size: 1200px; /*imagem grande de mais para cobrir corretamente o cabeçalho*/
     background-repeat: no-repeat;
     background-position: center; /*utilização pra centralizar a imagem até achar o tamanho ideal */
     
+}nav{
+    background-color: var(--color1);
+    display: block;
+}nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
 }
 footer > p > a{
     text-decoration: none;
-    color: rgb(41, 187, 138);
+    color: rgb(36, 219, 158);
+    font-weight: bolder;
+    text-shadow: 2px 1px 2px black;
 
 }.imagem{
     max-height: 450px;
     max-width: 1200px;
     margin: auto;
     padding: 200px;
+    justify-content: center;
     
 }header > h1{
     
 
+}header{
+    max-width: 1200px;
+    text-align: center;
+}nav{
+    padding: 20px;
 }
 .texto{
     padding: 60px;
     max-width: 1200px;
     margin: auto;
     box-shadow:  inset 3px 1px 14px 0px rgb(0 0 0 / 60%);
-    background-image: url(../imagens/papel.jpg);
+    
     color: var(--color1);
+    
       
 }section#img1 {
     background-image: url("../imagens/barril-fundo.jpeg");
@@ -47,14 +73,23 @@ footer > p > a{
     background-attachment: fixed;
     background-position: center ;
     max-height: 200px;
+    max-width: 1200px;
+    
     
     
 }section#img2{
     background-image: url("../imagens/rolha-fundo.jpg");
     background-size: cover;
     background-attachment: fixed;
+    max-width: 1200px;
 }section#img3{
     background-image: url("../imagens/vinicula-fundo.jpeg");
     background-size: cover;
     background-attachment: fixed;
+    max-width: 1200px;
+}footer{
+        text-align: center; 
+        padding: 30px;
+}a:hover{
+    color: crimson;
 }
