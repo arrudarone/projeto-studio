@@ -19,6 +19,10 @@
     font-family:Aboreto-Regular ;
     src: url(../fonts/Aboreto-Regular.ttf);
   }
+  @font-face {
+    font-family:BadScript ;
+    src: url(../fonts/BadScript-Regular.ttf);
+  }
 *{
     margin: 0px;
     padding: 0px;
@@ -61,17 +65,22 @@ footer > p > a{
     text-shadow: 2px 1px 2px black;
 
 }.imagem{
-    max-height: 450px;
+    
     max-width: 1200px;
-    margin: auto;
+    
     padding: 200px;
     justify-content: center;
     color: var(--color5);
     font-weight: bold;
     text-shadow: 1px 1px 3px #000000;
     font-size: 1.2em;
+    font-family: BadScript;
+    text-align: left;
     
-}header > h1{
+}.imagem > p {
+    margin: auto;
+}
+header > h1{
     
 
 }header{
@@ -95,22 +104,18 @@ footer > p > a{
     background-size: cover;
     background-attachment: fixed;
     background-position: center ;
-    max-height: 200px;
-    max-width: 1200px;
     
-    
-    
-    
+    max-height: 240px;  
 }section#img2{
     background-image: url("../imagens/rolha-fundo.jpg");
     background-size: cover;
     background-attachment: fixed;
-    max-width: 1200px;
+    
 }section#img3{
     background-image: url("../imagens/vinicula-fundo.jpeg");
     background-size: cover;
     background-attachment: fixed;
-    max-width: 1200px;
+   
 }footer{
         text-align: center; 
         padding: 30px;
