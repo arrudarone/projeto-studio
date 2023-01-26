@@ -81,7 +81,7 @@ footer > p > a{
     margin: auto;
 }
 header > h1{
-    
+padding: 30px;    
 
 }header{
     max-width: 1200px;
@@ -105,7 +105,7 @@ header > h1{
     background-attachment: fixed;
     background-position: center ;
     
-    max-height: 240px;  
+     
 }section#img2{
     background-image: url("../imagens/rolha-fundo.jpg");
     background-size: cover;
