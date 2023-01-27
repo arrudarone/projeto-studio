@@ -67,7 +67,6 @@ footer > p > a{
 }.imagem{
     
     max-width: 1200px;
-    
     padding: 200px;
     justify-content: center;
     color: var(--color5);
@@ -76,6 +75,7 @@ footer > p > a{
     font-size: 1.2em;
     font-family: BadScript;
     text-align: left;
+    color: #d9ff00;
     
 }.imagem > p {
     margin: auto;
@@ -86,9 +86,19 @@ padding: 30px;
 }header{
     max-width: 1200px;
     text-align: center;
+    width: 100%;
+    padding-top: 90px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.521);
 }nav{
     padding: 20px;
     box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.356);
+    /* menu fixo*/
+    margin: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width: 1160px;
+    z-index: 999px;
 }
 .texto{
     padding: 80px;
@@ -97,6 +107,9 @@ padding: 30px;
     box-shadow: 3px 1px 14px 0px rgb(0 0 0 / 60%);
     font-family: Aboreto-Regular;
     color: var(--color1);
+    background-image: linear-gradient(to bottom left,  rgba(46, 9, 9, 0.377) ,rgba(37, 4, 68, 0.76) );
+    /*background-image: linear-gradient(to bottom,  blue, red, green);*/
+    color: #ffffff;
     
       
 }section#img1 {
